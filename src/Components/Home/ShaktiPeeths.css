@@ -1,0 +1,238 @@
+::-webkit-scrollbar {
+    width: 12px; 
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background: #222222a3;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333; 
+    border-radius: 6px; 
+} 
+
+
+.shaktipeeth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 145px 0 155px;
+    height: 8%;
+    border-radius: 10px;
+    background: #E5D9F2;
+    
+   
+   
+    
+}
+
+
+
+
+
+
+
+
+
+.shaktipeeth-heading{
+  
+    color: #000;
+    
+    margin-top: 10px;
+
+  
+}
+
+
+.shaktipeeth_list {
+    padding: 5px;
+    height: 80vh;
+    margin: 10px 00;
+   
+    overflow-y: scroll;
+    
+    
+}
+
+
+.shaktipeeth_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    
+   
+
+}
+
+
+.shaktipeeth_card {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+  
+    height: 55vh;
+    /*  background: rgba(148, 210, 210, 0.933);  */
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin: 20px 00;
+    margin: 00 00 20px 00;
+    background:#CDC1FF;
+
+}
+
+.shaktipeeth_card h2 {
+   
+    font-size: 20px;
+    text-align: center;
+     /* border: 2px solid purple;  */
+}
+
+.shaktipeeth_card p {
+    font-size: smaller;
+    margin-top: 10px;
+    padding: 5px;
+    overflow-y: hidden;
+    /* border: 2px solid yellow;  */
+}
+
+.shaktipeeth_card img {
+    width: 100%;
+    height: 200px; 
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px ;
+    /*  border: 2px solid blue;  */
+}
+.shaktipeeth_card > * {
+    margin-top: 1px;
+}
+
+/* .shaktipeeth_card:hover {
+    transform: scale(1.05);
+    z-index: 4;
+} */
+.shaktipeeth_buttons {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+    position: relative;
+    bottom: 17px;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+   
+}
+.shaktipeeth_buttons button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    background: #18dfe2;
+    width: 30%;
+  
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #000;
+   
+}
+/* 
+.shaktipeeth_buttons:hover{
+    opacity: 1;
+} */
+.shaktipeeth-more{
+    margin: auto;
+    outline: none;
+    border: none; 
+    width: 100%;
+    background: #20f1f428;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.shaktipeeth_card:hover .shaktipeeth_buttons  {
+    opacity: 1;
+}
+
+/* / Tab  / */
+@media (max-width: 768px) {
+    .shaktipeeth_left {
+        width: 90%;
+    }
+    .shaktipeeth_right {
+        width: 100%;
+    }
+    .shaktipeeth_content {
+        width: 100%;
+    }
+    .shaktipeeth-button button {
+        width: 80px;
+        font-size: 14px;
+    }
+    .shaktipeeth_card {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+/*  Mobile  */
+@media (max-width: 480px) {
+
+    .shaktipeeth{
+        flex-direction: column;
+    }
+    .shaktipeeth_left {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .shaktipeeth_left-button {
+
+        margin: 20px auto 10px auto;
+    }
+
+   
+    .shaktipeeth-button {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        width: 100%;
+       
+    }
+    .shaktipeeth-button button {
+        width: 100%;
+        margin-bottom: 10px;
+        
+        padding-left: 0;
+        justify-content: center;
+    }
+
+ 
+    .shaktipeeth_container {
+
+        height: 80vh;
+        justify-content: center;
+
+    }
+
+   
+    .shaktipeeth_card {
+        width: 90%;
+    }
+}
+
+
+
+/*  For extra large dektops  */
+
+@media only screen and (min-width: 1824px) {
+
+
+    .shaktipeeth_left-button button{
+
+        margin: 20px 10px;
+    }
+
+  }
