@@ -44,12 +44,12 @@ const FancyNav = () => {
   ];
 
   const sanatanpart = [
-    { id: 201, name: "Hindu Calendar", path: "/hindu-calendar" },
+    { id: 201, name: "Hindu Calendar" },
     { id: 202, name: "Hindu Festivals", path: "/Festivals" }, 
-    { id: 203, name: "Hindu Mantras", path: "/hindu-mantras" },
-    { id: 204, name: "Present Context", path: "/present-context" },
-    { id: 205, name: "Yug", path: "/yug" },
-    { id: 206, name: "Scholars", path: "/scholars" },
+    { id: 203, name: "Hindu Mantras" },
+    { id: 204, name: "Present Context" },
+    { id: 205, name: "Yug"},
+    { id: 206, name: "Scholars" },
   ];
 
   return (
